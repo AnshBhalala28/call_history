@@ -53,7 +53,7 @@ class _CallScreenState extends State<CallScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("📞 Call History"),
+        title: const Text("Call History"),
         centerTitle: true,
       ),
       body: callLogs.isEmpty
